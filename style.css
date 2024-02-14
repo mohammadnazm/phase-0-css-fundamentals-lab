@@ -1,5 +1,48 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+/* Center the header text */
+header h1 {
+  text-align: center;
+}
+
+/* Center the image */
+#featured-property figure {
+  text-align: center;
+}
+
+/* Style the navigation links */
+nav a {
+  padding: 10px;
+  background-color: grey;
+}
+
+/* Style the image caption */
+#featured-property figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Center the text in the featured property section */
+#featured-property p {
+  width: 800px;
+  margin: 0 auto; /* Centers the text */
+}
+
+/* Make the details section horizontal */
+#details div {
+  float: left;
+}
+
+/* Style the bottom row divs */
+#details div {
+  background-color: lightgray;
+  text-align: center;
+  width: 25%;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* Clear floating to ensure proper layout */
+#details::after {
+  content: "";
+  display: table;
+  clear: both;
 }
